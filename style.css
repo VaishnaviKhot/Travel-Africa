@@ -1,0 +1,120 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  font-family: "Poppins" , sans-serif;
+}
+
+nav{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  padding: 3rem 5rem;
+  /* right: 0;
+  padding-left: 50%; */
+  justify-content: space-between;
+}
+.button{
+  padding-left:  20%;
+margin: -10px;
+}
+.button:hover{
+  cursor: pointer;
+  color: black;
+}
+
+.bg{
+  width: 550%;
+}
+
+
+ .container{
+   height: 100vh;
+   /* background: black; */
+ }
+
+ .container  img{
+   width: 100%;
+   position: absolute;
+   height: 100vh;
+   object-fit: cover;
+   z-index: -1;
+
+ }
+
+ .main-title{
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   font-size: 4rem;
+   transform: translate(-50% , -30%);
+   /* z-index: 10000; */
+  }
+
+ .content{
+   width: 100%;
+   background: rgb(24, 24, 24);
+   min-height: 100vh;
+   z-index: 2;
+   position: absolute;
+   overflow: hidden;
+   margin-bottom: auto;
+
+ }
+
+ .zoom-img{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 80vh;
+   text-align: center;
+   transition: all .3s ease-in-out;
+ }
+
+ .zoom-img{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 80vh;
+   text-align: center;
+      transition: all .3s ease-in-out;
+
+ }
+
+ .zoom-img img:hover{
+   transform: scale(1.2);
+   cursor: pointer;
+ }
+
+
+ .image{
+   width: 350px;
+ }
+
+ .text{
+  padding: 2rem 20rem;
+  font-size: 1rem;
+ }
+
+
+ #footer{
+ padding: 20% 20%;
+ text-align: center;
+ background:black;
+ padding-bottom: 5%;
+
+}
+
+.footer-icon{
+  padding:20% 7% ;
+  padding-bottom:7%;
+}
+.footer-icon:hover{
+  color: #4C0033;
+  cursor: pointer;
+  transform: scale(2);
+
+
+}
